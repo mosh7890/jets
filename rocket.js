@@ -1,4 +1,6 @@
-var Rocket = function () {
-
+var Rocket = function (color, size) {
+    this.color = color;
+    this.size = size;
 }
-module.export = Rocket;
+
+module.exports = Rocket;
